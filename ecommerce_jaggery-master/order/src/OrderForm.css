@@ -1,0 +1,62 @@
+/* OrderForm.css */
+
+.order-form-container {
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 30px;
+    background-color: #fffbe6;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+  }
+  
+  .order-form-container h2 {
+    text-align: center;
+    color: #4b2e05;
+    margin-bottom: 20px;
+  }
+  
+  .order-form label {
+    font-weight: bold;
+    margin-bottom: 5px;
+    display: block;
+    color: #4b2e05;
+  }
+  
+  .order-form input,
+  .order-form textarea,
+  .order-form select {
+    width: 100%;
+    padding: 10px 12px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 16px;
+    box-sizing: border-box;
+  }
+  
+  .order-form textarea {
+    resize: vertical;
+  }
+  
+  .order-form .total {
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 15px;
+  }
+  
+  .order-form button {
+    width: 100%;
+    padding: 12px;
+    background-color: #4caf50;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+  
+  .order-form button:hover {
+    background-color: #388e3c;
+  }
+  

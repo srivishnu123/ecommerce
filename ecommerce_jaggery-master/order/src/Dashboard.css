@@ -1,0 +1,47 @@
+.hero-section {
+    height: 100vh;
+    background-image: url('https://happyharvestfarms.com/blog/wp-content/uploads/2023/12/Organic-Jaggery.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .hero-section h1 {
+    font-size: 3rem;
+    text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.4);
+  }
+  
+  /* Benefits Section */
+  .benefits-section {
+    opacity: 0;
+    transform: translateY(40px);
+    transition: all 0.6s ease;
+    padding: 60px 20px;
+    background-color: #fffdf5;
+    text-align: center;
+  }
+  
+  .benefits-section.show {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  
+  .benefits-section h2 {
+    font-size: 2rem;
+    color: #a0522d;
+    margin-bottom: 20px;
+  }
+  
+  .benefits-section ul {
+    list-style: none;
+    padding: 0;
+    color: #4e342e;
+    font-size: 1.1rem;
+    line-height: 2;
+  }
+  
