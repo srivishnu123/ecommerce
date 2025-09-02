@@ -14,7 +14,7 @@ const About = () => {
         <div className="about-section">
           <h2>Why Choose Us?</h2>
           <ul>
-            <li>100% Natural and Organic Jaggery</li>
+            <li>100% Natural and OrganicJaggery</li>
             <li>Sourced Directly from Local Farmers</li>
             <li>Hygienic Packaging & Timely Delivery</li>
             <li>Perfect for Health-Conscious Families</li>
